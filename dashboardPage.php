@@ -53,6 +53,7 @@ body{
   <tbody>
   
 <?php 
+$counter=0;
  for($i=0;$i<count($dataStudent);$i++){
  $id=array($dataStudent[$i]['id']);
  $name=array($dataStudent[$i]['name']);
@@ -68,6 +69,7 @@ foreach($name  as $k  => $v){
  {  $project=array($dataStudent[$i]['projects'][$j]['project_name']);
      foreach($project as $k  => $v){
      echo '<td  scope="row">'.$v.'</td>';
+     $counter++;
      }
     }
 else{
@@ -75,15 +77,14 @@ else{
 }
 }
 echo '</tr>';
-
 }
- ?>
+echo '<br> <h5 class="text-center text-info"> Number of Completed
+Projects  : '.$counter.'</h5> ';
+  ?>
    
    
   </tbody>
 </table>
-
-
       </div>
     </div>
 

@@ -187,7 +187,7 @@
                                        array(
                                       'id' => '11',
                                       'name' => 'Dana',
-                                      'birthday' => '',
+                                      'birthday' => '1997',
                                       'github account' => 'https://github.com/danatoughoj',
                                       'linkedin' => 'https://www.linkedin.com/in/dana-toughoj/',
                                       'image' => 'https://avatars3.githubusercontent.com/u/60710271?s=460&u=4beabb3ede0403226fde0a59fbc995c15fbaf6c3&v=4',
